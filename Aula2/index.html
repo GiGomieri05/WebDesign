@@ -11,81 +11,91 @@
     <h1>Aula 2</h1>
     <form action="https://www.w3schools.com/action_page.php">
         <label for="curDate">Data</label><br />
-        <input type="date" name="curDate" id="curDate" />
+        <input type="date" name="curDate" id="curDate" /><br />
 
-        <h4>Dados de Acesso</h4>
-        <label for="userID">Usuário</label><br />
-        <input type="text" name="userID" id="userID" /><br />
+        <fieldset>
+            <legend>Dados de Acesso</legend>
+            <label for="userID">Usuário</label><br />
+            <input type="text" name="userID" id="userID" /><br />
 
-        <label for="senha">Senha</label><br />
-        <input type="password" name="senha" id="senha" /><br />
+            <label for="senha">Senha</label><br />
+            <input type="password" name="senha" id="senha" /><br />
+        </fieldset>
 
-        <h4>Dados Pessoais</h4>
-        <label for="nome">Nome</label><br />
-        <input type="text" name="nome" id="nome" /><br />
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label><br />
+            <input type="text" name="nome" id="nome" /><br />
 
-        <label for="endereco">Endereço</label><br />
-        <input type="text" name="endereco" id="endereco" /><br />
+            <label for="endereco">Endereço</label><br />
+            <input type="text" name="endereco" id="endereco" /><br />
 
-        <label for="numero">Número</label><br />
-        <input type="number" name="numero" id="numero" /><br />
+            <label for="numero">Número</label><br />
+            <input type="number" name="numero" id="numero" /><br />
 
-        <label for="complemento">Complemento</label><br />
-        <input type="text" name="complemento" id="complemento" /><br />
+            <label for="complemento">Complemento</label><br />
+            <input type="text" name="complemento" id="complemento" /><br />
 
-        <label for="cidade">cidade</label><br />
-        <input list="cidades" name="cidade" id="cidade" /><br />
-        <datalist id="cidades">
-            <option value="Sorocaba"></option>
-            <option value="Campinas"></option>
-            <option value="Rio de Janeiro"></option>
-            <option value="Caxias do Sul"></option>
-            <option value="Americana"></option>
-            <option value="Sta. Bárbara d'Oeste"></option>
-            <option value="Piracicaba"></option>
-            <option value="Itu"></option>
-            <option value="Sumaré"></option>
-        </datalist><br />
+            <label for="cidade">cidade</label><br />
+            <input list="cidades" name="cidade" id="cidade" /><br />
+            <datalist id="cidades">
+                <option value="Sorocaba"></option>
+                <option value="Campinas"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value="Caxias do Sul"></option>
+                <option value="Americana"></option>
+                <option value="Sta. Bárbara d'Oeste"></option>
+                <option value="Piracicaba"></option>
+                <option value="Itu"></option>
+                <option value="Sumaré"></option>
+            </datalist><br />
 
-        <label for="estados">Estado</label><br />
-        <select name="estados" id="estados">
-            <option value="sp">São Paulo</option>
-            <option value="rj">Rio de Janeiro</option>
-            <option value="mg">Minas Gerais</option>
-            <option value="rs">Rio Grande do Sul</option>
-        </select><br />
+            <label for="estados">Estado</label><br />
+            <select name="estados" id="estados">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </select><br />
 
-        <label for="cep">CEP</label><br />
-        <input type="number" name="cep" id="cep" /><br />
+            <label for="cep">CEP</label><br />
+            <input type="number" name="cep" id="cep" /><br />
+        </fieldset>
 
-        <h4>Gênero</h4>
+        <fieldset>
+            <legend>Gênero</legend>
 
-        <input type="radio" id="masc" name="genero" value="Masculino" />
-        <label for="masc">Masculino</label><br />
-        <input type="radio" id="fem" name="genero" value="Feminino" />
-        <label for="fem">Feminino</label><br />
-        <input type="radio" id="naoInf" name="genero" value="Prefiro não falar" />
-        <label for="naoInf">Prefiro não falar</label><br />
+            <input type="radio" id="masc" name="genero" value="Masculino" />
+            <label for="masc">Masculino</label><br />
+            <input type="radio" id="fem" name="genero" value="Feminino" />
+            <label for="fem">Feminino</label><br />
+            <input type="radio" id="naoInf" name="genero" value="Prefiro não falar" />
+            <label for="naoInf">Prefiro não falar</label><br />
+        </fieldset>
 
-        <h4>Curso</h4>
+        <fieldset>
+            <legend>Curso</legend>
 
-        <input type="checkbox" id="curso1" name="curso1" value="ADS" />
-        <label for="curso1"> ADS</label><br />
-        <input type="checkbox" id="curso2" name="curso2" value="Jogos" />
-        <label for="curso2"> Jogos</label><br />
-        <input type="checkbox" id="curso3" name="curso3" value="TI" />
-        <label for="curso3"> Gestão de TI</label><br />
-        <input type="checkbox" id="curso4" name="curso4" value="Dados" />
-        <label for="curso4"> Banco de Dados</label><br />
-        
-        <h4>Modelo</h4>
+            <input type="checkbox" id="curso1" name="curso1" value="ADS" />
+            <label for="curso1"> ADS</label><br />
+            <input type="checkbox" id="curso2" name="curso2" value="Jogos" />
+            <label for="curso2"> Jogos</label><br />
+            <input type="checkbox" id="curso3" name="curso3" value="TI" />
+            <label for="curso3"> Gestão de TI</label><br />
+            <input type="checkbox" id="curso4" name="curso4" value="Dados" />
+            <label for="curso4"> Banco de Dados</label><br />
+        </fieldset>
 
-        <input type="radio" id="rpes" name="modelo" value="Presencial" />
-        <label for="pres">Presencial</label><br />
-        <input type="radio" id="ead" name="modelo" value="EAD" />
-        <label for="ead">EAD</label><br />
-        <input type="radio" id="semi" name="modelo" value="Semi-Presencial" />
-        <label for="semi">Semi-Presencial</label><br /><br />
+        <fieldset>
+            <legend>Modelo</legend>
+
+            <input type="radio" id="rpes" name="modelo" value="Presencial" />
+            <label for="pres">Presencial</label><br />
+            <input type="radio" id="ead" name="modelo" value="EAD" />
+            <label for="ead">EAD</label><br />
+            <input type="radio" id="semi" name="modelo" value="Semi-Presencial" />
+            <label for="semi">Semi-Presencial</label><br /><br />
+        </fieldset>
 
         <input type="submit" />
     </form>

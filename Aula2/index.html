@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aula 2</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <h1>Aula 2</h1>
     <form action="https://www.w3schools.com/action_page.php">
-      <label for="curDate">Data</label><br />
-      <input type="date" name="curDate" id="curDate" />
+        <label for="curDate">Data</label><br />
+        <input type="date" name="curDate" id="curDate" />
 
-      <h4>Dados de Acesso</h4>
-      <label for="userID">Usuário</label><br />
-      <input type="text" name="userID" id="userID" /><br />
+        <h4>Dados de Acesso</h4>
+        <label for="userID">Usuário</label><br />
+        <input type="text" name="userID" id="userID" /><br />
 
-      <label for="senha">Senha</label><br />
-      <input type="password" name="senha" id="senha" /><br />
+        <label for="senha">Senha</label><br />
+        <input type="password" name="senha" id="senha" /><br />
 
-      <h4>Dados Pessoais</h4>
-      <label for="nome">Nome</label><br />
-      <input type="text" name="nome" id="nome" /><br />
+        <h4>Dados Pessoais</h4>
+        <label for="nome">Nome</label><br />
+        <input type="text" name="nome" id="nome" /><br />
 
-      <label for="endereco">Endereço</label><br />
-      <input type="text" name="endereco" id="endereco" /><br />
+        <label for="endereco">Endereço</label><br />
+        <input type="text" name="endereco" id="endereco" /><br />
 
-      <label for="numero">Número</label><br />
-      <input type="number" name="numero" id="numero" /><br />
+        <label for="numero">Número</label><br />
+        <input type="number" name="numero" id="numero" /><br />
 
-      <label for="complemento">Complemento</label><br />
-      <input type="text" name="complemento" id="complemento" /><br />
+        <label for="complemento">Complemento</label><br />
+        <input type="text" name="complemento" id="complemento" /><br />
 
-      <label for="cidade">cidade</label><br />
-      <input list="cidades" name="cidade" id="cidade" /><br />
-      <datalist id="cidades">
-        <option value="Sorocaba"></option>
-        <option value="Campinas"></option>
-        <option value="Rio de Janeiro"></option>
-        <option value="Caxias do Sul"></option>
-        <option value="Americana"></option>
-        <option value="Sta. Bárbara d'Oeste"></option>
-        <option value="Piracicaba"></option>
-        <option value="Itu"></option>
-        <option value="Sumaré"></option></datalist
+        <label for="cidade">cidade</label><br />
+        <input list="cidades" name="cidade" id="cidade" /><br />
+        <datalist id="cidades">
+            <option value="Sorocaba"></option>
+            <option value="Campinas"></option>
+            <option value="Rio de Janeiro"></option>
+            <option value="Caxias do Sul"></option>
+            <option value="Americana"></option>
+            <option value="Sta. Bárbara d'Oeste"></option>
+            <option value="Piracicaba"></option>
+            <option value="Itu"></option>
+            <option value="Sumaré"></option>
+        </datalist><br />
 
-      ><br />
+        <label for="estados">Estado</label><br />
+        <select name="estados" id="estados">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="rs">Rio Grande do Sul</option>
+        </select><br />
 
-      <label for="estados">Estado</label><br />
-      <select name="estados" id="estados">
-        <option value="sp">São Paulo</option>
-        <option value="rj">Rio de Janeiro</option>
-        <option value="mg">Minas Gerais</option>
-        <option value="rs">Rio Grande do Sul</option></select
-      ><br />
+        <label for="cep">CEP</label><br />
+        <input type="number" name="cep" id="cep" /><br />
 
-      <label for="cep">CEP</label><br />
-      <input type="number" name="cep" id="cep" /><br />
+        <input type="radio" id="masc" name="genero" value="Masculino" />
+        <label for="masc">Masculino</label><br />
+        <input type="radio" id="fem" name="genero" value="Feminino" />
+        <label for="fem">Feminino</label><br />
+        <input type="radio" id="naoInf" name="genero" value="Prefiro não falar" />
+        <label for="naoInf">Prefiro não falar</label><br />
 
-      <input type="radio" id="masc" name="genero" value="Masculino" />
-      <label for="masc">Masculino</label><br />
-      <input type="radio" id="fem" name="genero" value="Feminino" />
-      <label for="fem">Feminino</label><br />
-      <input type="radio" id="naoInf" name="genero" value="Prefiro não falar" />
-      <label for="naoInf">Prefiro não falar</label><br />
-
-      <input type="submit" />
+        <input type="submit" />
     </form>
-  </body>
+</body>
+
 </html>

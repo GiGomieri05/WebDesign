@@ -1,0 +1,72 @@
+/*O * significa todos os elementos da minha pagina*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*Seletor de tag*/
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+/*Seletor de classe*/
+
+.texto-laranja {
+    color: orange;
+}
+
+/*Seletor de ID*/
+
+#texto-azul {
+    color: blue;
+    background-color: yellow;
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    border-radius: 13%;
+    border: 22px solid mediumvioletred;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+.titulo {
+    margin: 29px;
+    border: 13px double salmon;
+    padding: 17px;
+}
+
+.paddingEsq {
+    padding-left: 200px;
+}
+
+nav {
+    background-color: brown;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: crimson;
+    font-weight: 800;
+}

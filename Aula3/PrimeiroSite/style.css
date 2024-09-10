@@ -1,16 +1,16 @@
 .sora {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .bowlby {
     font-family: "Bowlby One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 
 /*O * significa todos os elementos da minha pagina*/
 * {
@@ -20,7 +20,7 @@
 }
 
 h1 {
-    color:orangered;
+    color: orangered;
 }
 
 nav {
@@ -44,11 +44,33 @@ a:hover {
 
 img {
     border: 5px solid orangered;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin-bottom: 75px;
 
 }
 
 p {
-    color: blue;
+    color: darkblue;
     font-family: "Sora", sans-serif;
-    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+
+.bordas{
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 150px;
+    columns: 2;
+}
+
+.cor-laranja{
+    color: orangered;
+}
+
+.cor-preto{
+    color:black;
 }

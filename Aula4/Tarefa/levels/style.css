@@ -1,0 +1,21 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.verde {
+    border: 5px solid #25fc09;
+}
+
+.amarelo {
+    border: 5px solid #c9bf07;
+}
+
+.vermelho {
+    border: 5px solid #ee0b0b;
+    ;
+}

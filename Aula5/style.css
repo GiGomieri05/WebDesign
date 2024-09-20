@@ -1,0 +1,85 @@
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.red-rose {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #6F7CB2;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+img {
+    size-adjust: 10;
+}
+
+.section-1 {
+    width: 520px;
+    margin-right: 98px;
+    margin-top: 60px;
+}
+
+.section-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+}
+
+button {
+    width: 190px;
+    height: 36px;
+    color: white;
+    background-color: #111B47;
+    border-style: solid;
+    border-color: #111B47;
+    border-radius: 2px;
+    
+}
+
+.btn-white {
+    color: #091133;
+    margin-left: 29px;
+    border-color: #091133;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #091133;
+    border-color: #091133;
+    background-color: white;
+}
+
+.btn-white:hover {
+    color: white;
+    background-color: #111B47;
+    border-color: #111B47;
+}

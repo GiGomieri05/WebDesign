@@ -1,0 +1,81 @@
+.lato {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 24px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 35px;
+    color: #333333;
+}
+
+section{
+    height: 467px;
+    width: 495px;
+    margin-right: 49px;
+    margin-top: 93px;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.esferas-low-calories{
+    display: flex;
+    margin-top: 91px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textos-botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alinha-botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    border: solid 0px;
+    border-radius: 40px;
+    width: 222px;
+    height: 66px;
+    font-size: 22px;
+    border-collapse: collapse;
+}
+
+.imagem-doce{
+    width: 302px;
+    height: 348px;
+    border: solid 1px #000000;
+    border-radius: 40px;
+}
+
+.container-imagem{
+    display: flex;
+    flex-direction: row;
+    width: 654px;
+    height: 825px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}

@@ -11,7 +11,7 @@ function isEmailValido(){
     return false;
 }
 
-if(isEmailValido() == true){
+if(isEmailValido()){
     console.log("Email validado!");
 } else{
     console.log("Esse email nao existe");

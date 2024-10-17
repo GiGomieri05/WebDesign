@@ -1,4 +1,4 @@
-let nome = "socorram me subi no onibus em marrocos";
+let nome = "Ganhei na loteria";
 console.log(inverte(nome));
 
 function inverte(n){

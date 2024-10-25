@@ -1,0 +1,44 @@
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.botao_estilo_1{
+    background-color: red;
+    color: white;
+    font-style: oblique;
+    border: 0px;
+    width: 300px;
+    height: 80px;
+    border-radius: 90px;
+    font-size: 24px;
+}
+
+.boton-ativo{
+    background-color: black;
+    color: red;
+    width: 90px;
+    height: 80px;
+    border: 0px;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.secao_imagem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.botoes_1{
+    padding: 10px;
+}
+
+.botoes_2{
+    padding: 10px;
+}

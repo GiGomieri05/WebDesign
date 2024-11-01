@@ -1,20 +1,45 @@
 let file = "https://6724b58ac39fedae05b270eb.mockapi.io/animal";
 
-fetch(file) // URL da API
+function buscaAnimais(){
+    fetch(file)
     .then(response => response.json())
     .then(myArray => {
-        const list = document.querySelector('#lista');
-        list.innerHTML = ''; // Limpa a lista antes de popular
+        console.log(myArray);
+        atualizaLista(myArray);
+    });
+}
 
-        // Itera sobre o array de dados
-        myArray.forEach((item) => {
-            const novoItem = document.createElement('li');
+function atualizaLista(listaAnimais){
+    let lista = document.querySelector('#lista'); //busco no meu html onde esta a minha lista
+    let i = 0;
 
-            // Adiciona o conteúdo desejado no elemento <li>
-            novoItem.innerHTML = item.nome; // Use `item.algumCampo` se item for um objeto
+    lista.innerHTML = ''; //limpo os valores que estao na lista quando recarrego a pagina
 
-            // Adiciona o novo item à lista
-            list.appendChild(novoItem);
-        });
+    listaAnimais.forEach((animal, index) => {
+        lista.innerHTML += 
+        `<li id="${index}">${animal.id} - ${animal.nome} (${animal.idade}) - ${animal.raca} </li>`;
+    });
+}
+
+function adicionar() {
+    fetch(file, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            nome: 'Totó',
+            idade: 12,
+            raca: 'Cachorro'
+        })
     })
-    .catch(error => console.error("Erro ao buscar dados da API:", error)); // Tratamento de erro opcional
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        buscaAnimais();
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(24, 42, 122);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+.rubik {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tillana {
+    font-family: "Tillana", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cartao {
+    background-color: orangered;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: double;
+    padding: 10px;
+    color: white;
+    width: 300px;
+}
+
+button{
+    border: 0;
+    height: 40px;
+    width: 580px;
+    background-color: rgba(255, 68, 0, 0.205);
+    font-size: 24px;
+    color: orangered;
+    border-radius: 16px;
+}
+
+button:hover{
+    background-color: rgba(255, 68, 0, 0.315);
+    cursor: pointer;
+    scale: 112%;
+}

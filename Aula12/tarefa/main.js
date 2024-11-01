@@ -17,7 +17,7 @@ function atualizaLista(listaAnimais){
 
     listaAnimais.forEach((animal, index) => {
         lista.innerHTML += 
-        `<li id="${index}">${animal.id} - ${animal.nome} (${animal.idade}) - ${animal.raca} </li>`;
+        `<li id="${index}" class="cartao tillana">${animal.id} - <b>${animal.nome}</b> (${animal.idade}) - ${animal.raca} </li>`;
     });
 }
 

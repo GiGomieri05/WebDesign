@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefa Fetch</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body onload="buscaAnimais()">
     <main>
-        <h1>Loja do Mestre André aiolé</h1>
-        <button id="botao-cadastra" onclick="adicionar() ">Cadastrar Animal</button>
+        <h1 class="rubik">Pet-Shop Orea Seca</h1>
+        <button class="tillana" id="botao-cadastra" onclick="adicionar()"><b>Cadastrar Animal</b></button>
         <ul id="lista"></ul>
     </main>
 
 
     <script src="main.js"></script>
 </body>
+
 </html>

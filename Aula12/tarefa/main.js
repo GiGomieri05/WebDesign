@@ -11,7 +11,6 @@ function buscaAnimais(){
 
 function atualizaLista(listaAnimais){
     let lista = document.querySelector('#lista'); //busco no meu html onde esta a minha lista
-    let i = 0;
 
     lista.innerHTML = ''; //limpo os valores que estao na lista quando recarrego a pagina
 
